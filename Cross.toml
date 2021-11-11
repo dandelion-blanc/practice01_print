@@ -1,0 +1,9 @@
+[build.env]
+passthrough = [
+    "CMAKE_C_COMPILER=D:\pleiades\eclipse\mingw\bin",
+    "CMAKE_CXX_COMPILER=D:\pleiades\eclipse\mingw\bin",
+]
+
+
+[target.x86_64-unknown-linux-musl]
+image = "my_x86_64-linux-musl:latest"
